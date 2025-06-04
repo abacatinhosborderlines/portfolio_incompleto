@@ -21,10 +21,14 @@ header{
     width: 100%;
 }
 
+
 .lista-vertical,
 .lista-horizontal{
     display: flex;
     gap: 20px;
+list-style: none;
+}
 
+.lista-vertical li a{
 
 }
