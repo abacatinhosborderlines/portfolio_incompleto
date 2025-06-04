@@ -22,13 +22,19 @@ header{
 }
 
 
-.lista-vertical,
-.lista-horizontal{
+.lista-vertical ul,
+.lista-horizontal ul{
     display: flex;
     gap: 20px;
 list-style: none;
 }
 
-.lista-vertical li a{
+.lista-vertical li a,
+.lista-horizontal li a{
+color: antiquewhite;
+text-decoration: none;
+font-size: 1.25rem;
+padding: 10px 15px;
+border-radius: 5px;
 
 }
