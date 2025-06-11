@@ -50,4 +50,5 @@ main {
     margin: 40px auto;
     padding: 20px;
     display: flex;
+    flex-direction: column;
 }
