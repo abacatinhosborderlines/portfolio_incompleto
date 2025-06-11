@@ -4,23 +4,30 @@
     box-sizing: border-box;
 }
 
-body{
-    font-family: arial, sans-serif;
-    background-color: rgb(186, 196, 255);
-    font-size: 1rem;
-}
 
 .menu{
     display: flex;
     justify-content: space-around;
 
 }
-header{
-    background-color: rgb(45, 85, 196);
-    padding: 20px 40px;
-    width: 100%;
+
+body {
+    font-family: arial, sans-serif;
+    background-color: rgb(186, 196, 255);
+    height: 100vh;
+    box-sizing: border-box;
+    font-size: 16px;
+    
 }
 
+header {
+     background-color: rgb(45, 85, 196);
+    padding: 20px 40px;
+    width: 100%;
+    display: flex;
+    position: relative;
+    justify-content: center;
+}
 
 .lista-vertical ul,
 .lista-horizontal ul{
