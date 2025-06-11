@@ -18,6 +18,7 @@ body {
     box-sizing: border-box;
     font-size: 60px;
     
+
 }
 
 header {
@@ -48,4 +49,5 @@ border-radius: 5px;
 main {
     margin: 40px auto;
     padding: 20px;
+    display: flex;
 }
