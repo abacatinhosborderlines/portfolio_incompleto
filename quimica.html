@@ -1,80 +1,115 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfólio de Quimica</title>
-    <link rel="stylesheet" href="quimica.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
-        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-
-</head>
-
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfólio de Química</title>
+    <link rel="stylesheet" href="quimica.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
     <header>
-        <section class="menu">
-            <div class="lista-vertical">
-                <ul>
-                    <li><a href="*">Matematica</a></li>
-                    <li><a href="biologia.html">Biologia</a></li>
-                    <li><a href="*">Fisica</a></li>
-                </ul>
-            </div>
-
-            <div class="lista-horizontal">
-                <ul>
-                    <li><a href="#provas">Provas</a></li>
-                    <li><a href="#relatorios">Relatórios</a></li>
-                    <li><a href="#atividades">Atividades</a></li>
-                </ul>
-
-            </div>
-        </section>
-    </header>
-
-    <main>
-<div class="home">
-            <a href="./index.html"><i class="fa-solid fa-house"></i></a>
+      <section class="menus">
+        <div class="menu_externo">
+          <ul>
+            <li><a href="#">Matemática</a></li>
+            <li><a href="biologia.html">Biologia</a></li>
+            <li><a href="#">Física</a></li>
+          </ul>
         </div>
-
-        <h1>Quimica</h1>
-
-       <div id="provas">
-        <h2>Provas</h2>
-        <p>Provas realizadas no 1° Trimestre</p>
-        <ul>
-            <li>Prova 1- Nota:7,4. <span class="block"> <br> Conteúdo: Tipos de Ligações Data: 10/03</span>
-
+        <div class="menu_interno">
+          <ul>
+            <li><a href="#atividades">Atividades</a></li>
+            <li><a href="#laboratorio">Laboratório</a></li>
+            <li><a href="#provas">Provas</a></li>
+          </ul>
+        </div>
+      </section>
+    </header>
+    <main>
+      <section id="atividades" class="atividades">
+        <div class="cards">
+          <h2>Atividades</h2>
+          <ul>
+            <li class="card">
+              <h3>Atividade 01</h3>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Praesent efficitur dui vitae ligula tristique congue. Nam
+                fermentum, nunc sed gravida rhoncus, lorem tortor tempor felis,
+                nec luctus nisi metus ac ligula.
+              </p>
             </li>
-            <li>Prova 2- Nota:8,3. <span class="block"> <br> Conteúdo: Estequiometria e Balanceamento Data: 30/04</span> </li>
-            <li>Prova 3- Nota:10,0. <span class="block"> <br> Conteúdo: Fisico-quimica e Cinética Quimica Data: 17/05</span> </li>
-        </ul>
-    </div>
-    <div id="relatorios">
-        <h2>Relátorios</h2>
-        <p>Relatórios realizados no 1° Trimestre</p>
-        <ul>
-            <li>Relatório 1- Nota:2,0. <span class="block"> <br> Conteúdo: Lei de Hess e Equilibrio Quimico Data: 25/03</span> </li>
-            <li>Relatório 2- Nota:1,8. <span class="block"> <br> Conteúdo: Massa Molar e Numero de Mol Data: 06/05</span> </li>
-           
-        </ul>
-    </div>
-    <div id="atividades">
-        <h2>Atividades</h2>
-        <p>Atividades realizadas em sala no 1° Trimestre</p>
-        <ul>
-            <li>Atividade 1- Nota:5,0. <span class="block"> <br> Conteúdo: Destilação Fracionada e Petroleo 09/04</span> </li>
-            <li>Atividade 2- Nota:2,7. <span class="block"> <br> Conteúdo: Ácidos e Bases 01/05 </span> </li>
-           
-        </ul>
-</div>
+            <li class="card">
+              <h3>Atividades 02</h3>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Praesent efficitur dui vitae ligula tristique congue. Nam
+                fermentum, nunc sed gravida rhoncus, lorem tortor tempor felis,
+                nec luctus nisi metus ac ligula.
+              </p>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section id="laboratorio" class="laboratorio">
+        <div class="cards">
+          <h2>Laboratório</h2>
+          <ul>
+            <li class="card">
+              <h3>Laboratório 01</h3>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Praesent efficitur dui vitae ligula tristique congue. Nam
+                fermentum, nunc sed gravida rhoncus, lorem tortor tempor felis,
+                nec luctus nisi metus ac ligula.
+              </p>
+            </li>
+            <li class="card">
+              <h3>Laboratório 02</h3>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Praesent efficitur dui vitae ligula tristique congue. Nam
+                fermentum, nunc sed gravida rhoncus, lorem tortor tempor felis,
+                nec luctus nisi metus ac ligula.
+              </p>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section id="provas" class="provas">
+        <div class="cards">
+          <h2>Provas</h2>
+          <ul>
+            <li class="card">
+              <h3>Prova 01</h3>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Praesent efficitur dui vitae ligula tristique congue. Nam
+                fermentum, nunc sed gravida rhoncus, lorem tortor tempor felis,
+                nec luctus nisi metus ac ligula.
+              </p>
+            </li>
+            <li class="card">
+              <h3>Prova 02</h3>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Praesent efficitur dui vitae ligula tristique congue. Nam
+                fermentum, nunc sed gravida rhoncus, lorem tortor tempor felis,
+                nec luctus nisi metus ac ligula.
+              </p>
+            </li>
+          </ul>
+        </div>
+      </section>
     </main>
-
-    <footer>
-
-    </footer>
-</body>
+    <footer></footer>
+  </body>
+</html>
