@@ -6,7 +6,7 @@
 
 body {
   font-family: Arial, sans-serif;
-  background-color: #f0f2bd;
+  background-color: #03ff74;
 }
 
 header {
@@ -60,7 +60,7 @@ header {
   left: 0;
   width: 0;
   height: 2px;
-  background-color: #ecf0f1;
+  background-color: #eeec61;
   transition: width 0.3s ease;
 }
 
@@ -76,7 +76,7 @@ main {
 }
 
 footer {
-  background-color: #2c3e50;
+  background-color: #167ee7;
   color: #ecf0f1;
   text-align: center;
   padding: 20px;
@@ -86,7 +86,7 @@ footer {
 .atividades,
 .laboratorio,
 .provas {
-  background-color: #b2cd9c;
+  background-color: #e8eb5a;
   border-radius: 12px;
   padding: 2rem;
   margin-bottom: 2rem;
@@ -118,7 +118,7 @@ footer {
 }
 
 .card {
-  background-color: #f0f2bd;
+  background-color: #81d6a2cc;
   border-radius: 12px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   padding: 1.5rem;
@@ -152,15 +152,15 @@ footer {
 }
 
 .atividades .card {
-  border-left: 4px solid #71c0bb;
+  border-left: 4px solid #b0c925;
 }
 
 .laboratorio .card {
-  border-left: 4px solid #4e6688;
+  border-left: 4px solid #07aa46;
 }
 
 .provas .card {
-  border-left: 4px solid #332d56;
+  border-left: 4px solid #40bd2144;
 }
 
 @media (max-width: 768px) {
@@ -179,7 +179,7 @@ footer {
   .menu_interno {
     padding: 8px;
     border-radius: 5px;
-    background-color: rgba(255, 255, 255, 0.05);
+    background-color: rgba(255, 2, 158, 0.938);
     border: 1px solid rgba(255, 255, 255, 0.1);
   }
 
@@ -243,7 +243,7 @@ footer {
     width: 100%;
     padding: 5px;
     border-radius: 3px;
-    background-color: rgba(255, 255, 255, 0.03);
+    background-color: rgba(211, 47, 102, 0.705);
     border: 1px solid rgba(255, 255, 255, 0.08);
     text-align: center;
   }
