@@ -3,3 +3,68 @@
     padding: 0;
     box-sizing: border-box;
 }
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.menu{
+    display: flex;
+    justify-content: space-around;
+
+}
+
+body {
+    font-family: arial, sans-serif;
+    background-color: rgb(186, 196, 255);
+    height: 100vh;
+    box-sizing: border-box;
+    font-size: 60px;
+    
+
+}
+
+header {
+     background-color: rgb(45, 85, 196);
+    padding: 20px 40px;
+    width: 100%;
+    display: flex;
+    position: relative;
+    justify-content: center;
+}
+
+.lista-vertical ul,
+.lista-horizontal ul{
+    display: flex;
+    gap: 20px;
+list-style: none;
+}
+
+.lista-vertical li a,
+.lista-horizontal li a{
+color: antiquewhite;
+text-decoration: none;
+font-size: 1.25rem;
+padding: 10px 15px;
+border-radius: 5px;
+
+}
+main {
+    margin: 40px auto;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.atividades,
+.relatorios,
+.provas{
+    background-color: ;
+    border-radius: ;
+    margin-bottom: ;
+    padding: ;
+}
